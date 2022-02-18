@@ -90,7 +90,7 @@ justify-content: center;
 }
 .two-columns__main-text{
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   width: 80%;
   min-width: 784px;
   margin: 0;
