@@ -13,9 +13,11 @@
   display: flex;
   position: relative;
 }
+
 .logo{
   width: 183px;
 }
+
 .logo_place_header{
   height: 32px;
   position: absolute;
@@ -24,6 +26,7 @@
   z-index: 1;
   background-image: url(../images/logo_place_header.svg);
 }
+
 .header__title{
   color: #000000;
   width: 730px;
@@ -34,6 +37,7 @@
   margin: 0 0 0 64px;
   z-index: 2;
 }
+
 .header__subtitle{
   color: #000000;
   width: 388px;
@@ -46,11 +50,13 @@
   margin: 0;
   z-index: 2;
 }
+
 .header__link{
   color: #2f80ed;
   text-decoration: none;
   margin: 0;
 }
+
 .header__main-illustration{
   width: 765px;
   height: 608px;
@@ -59,6 +65,7 @@
   bottom: 0;
   z-index: 1;
 }
+
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -68,18 +75,14 @@
   top: 64px;
 }
 
-.center{
-display: flex;
-justify-content: center;
-}
 .two-columns{
   width: 80%;
-  margin-top: 100px;
-  margin-bottom: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 100px auto 100px;
 }
+
 .two-columns__brief{
   line-height: 1.2;
   font-size: 18px;
@@ -88,6 +91,7 @@ justify-content: center;
   width: 175px;
   margin: 0;
 }
+
 .two-columns__main-text{
   display: flex;
   flex-direction: column;
@@ -95,6 +99,7 @@ justify-content: center;
   min-width: 784px;
   margin: 0;
 }
+
 .two-columns__paragraph{
   line-height: 34px;
   font-size: 24px;
@@ -102,9 +107,11 @@ justify-content: center;
   margin: 0;
   color: #000000;
 }
-.p2{
-  margin: 30px 0 30px 0;
+
+.two-columns__paragraph:nth-of-type(2){
+  margin: 30px 0 30px;
 }
+
 .two-columns__span-accent{
   line-height: 34px;
   font-size: 24px;
@@ -113,58 +120,60 @@ justify-content: center;
 }
 
 .section-title{
-line-height: 1.15;
-font-size: 60px;
-font-weight: bold;
-width: 60%;
-margin: 0 auto 0;
-text-align: center;
-color: #000000;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  width: 60%;
+  margin: 0 auto 0;
+  text-align: center;
+  color: #000000;
 }
+
 .section-subtitle{
-line-height: 34px;
-font-size: 24px;
-font-weight: normal;
-margin: 20px auto 0;
-width: 60%;
-text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 20px auto 0;
+  width: 60%;
+  text-align: center;
 }
+
 .table{
-display: flex;
-margin: 0 auto 100px;
-justify-content: space-between;
-flex-wrap: wrap;
-width: 1100px;
+  display: flex;
+  margin: 0 auto 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1100px;
 }
+
 .table__cell{
-width: 250px;
-margin-top: 60px;
+  width: 250px;
+  margin-top: 60px;
 }
+
 .table__heading{
-line-height: 1.15;
-font-size: 24px;
-font-weight: bold;
-margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
 }
+
 .table__text{
-line-height: 1.2;
-font-size: 18px;
-font-weight: normal;
-margin: 20px 0 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0 0;
 }
 
 .feynman{
   position: relative;
-  height: 890px;
+  min-height: 890px;
+  padding-top: 100px;
+  box-sizing: border-box;
+  background-size: 867px 637px;
+  background: no-repeat left bottom url("../images/feynman.png"), #f2f2f2;
 }
-.feynman__img{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 867px;
-  height: 637px;
-  z-index: -1;
-}
+
 .feynman__title{
   text-align: center;
   line-height: 1.15;
@@ -175,6 +184,7 @@ margin: 20px 0 0;
   z-index: 1;
   color: #000000;
 }
+
 .feynman__subtitle{
   text-align: center;
   line-height: 51px;
@@ -184,6 +194,7 @@ margin: 20px 0 0;
   z-index: 1;
   color: #000000;
 }
+
 .feynman__link{
   line-height: 51px;
   font-size: 36px;
@@ -193,6 +204,7 @@ margin: 20px 0 0;
   top: 50%;
   right: 48px;
   margin: 0;
+  text-decoration: none;
 }
 
 .kaufman{
@@ -200,59 +212,74 @@ margin: 20px 0 0;
   overflow: hidden;
   background-color: #1f1f1f;
 }
-.section-title__theme_dark{
+
+.section-title_theme_dark{
   margin-bottom: 20px;
   margin-top: 90px;
   color: #fff;
   z-index: 1;
 }
-.section-subtitle__theme-dark{
+
+.section-subtitle_theme_dark{
   color: #fff;
   z-index: 1;
   margin: 0 auto 0;
 }
-.table__theme-dark{
+
+.table_theme_dark{
   margin: 0 auto 90px;
   color: #fff;
   z-index: 1;
 }
-.table__cell__theme-dark{
+
+.table__cell_theme_dark{
   width: 200px;
   margin-top: 80px;
   color: #fff;
   z-index: 1;
 }
+
 .kaufman__triangle{
   position: absolute;
   right: -210px;
   top: 0;
   width: 877px;
   height: 877px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-image: url("../images/kaufman-triangle.svg");
 }
 
 .footer{
   min-height: 350px;
   background-color: #1f1f1f;
   padding-top: 60px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  display: flex;
 }
+
 .footer__columns{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 90%;
-  margin: 60px auto 40px;
+  margin: 0 auto 0;
 }
-.footer__column__content-copyright{
+
+.footer__column__content_copyright{
   flex-basis: 711px;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .logo_place_footer{
   height: 35px;
   background-image: url(../images/logo_place_footer.svg);
 }
+
 .footer__author{
   line-height: 25px;
   font-size: 18px;
@@ -260,29 +287,37 @@ margin: 20px 0 0;
   color: #fff;
   margin: 18px 0 18px 0;
 }
+
 .footer__column{
   display: flex;
   flex-direction: column;
   color: #fff;
 }
-.footer__column__content-info{
+
+.footer__column__content_info{
   flex-direction: column;
+  margin: 0 0 16px 0;
+  padding: 0;
 }
+
 .footer__column-heading{
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  margin: 0 0 20px;
-  padding: 0;
   color: #fff;
+  padding: 0;
+  margin: 0 0 20px;
 }
-.ul{
+
+.footer__column_links{
   margin: 0 0 16px 0;
   padding: 0;
 }
-.li{
+
+.footer_li{
   list-style-type: none;
 }
+
 .footer__column-link{
   line-height: 30px;
   font-size: 18px;
@@ -290,10 +325,11 @@ margin: 20px 0 0;
   color: #fff;
   text-decoration: none;
 }
-.footer__column__content-social{
+
+.footer__column__content_social{
   flex-direction: column;
-  justify-content: space-between;
 }
+
 .footer__social-icon{
   width: 16px;
   height: 16px;
