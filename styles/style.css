@@ -210,8 +210,8 @@
 .kaufman{
   position: relative;
   overflow: hidden;
+  z-index: 1;
   background-color: #1f1f1f;
-  z-index: -1;
 }
 
 .section-title_theme_dark{
@@ -242,9 +242,9 @@
   top: 0;
   width: 877px;
   height: 877px;
-  box-sizing: border-box;
-  background-size: cover;
   z-index: -1;
+  background: border-box;
+  background-size: cover;
   background-image: url("../images/kaufman-triangle.svg");
 }
 
