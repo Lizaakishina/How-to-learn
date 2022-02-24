@@ -210,7 +210,7 @@
 .kaufman{
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
   background-color: #1f1f1f;
 }
 
@@ -242,9 +242,9 @@
   top: 0;
   width: 877px;
   height: 877px;
-  z-index: -1;
   background: border-box;
   background-size: cover;
+  z-index: -1;
   background-image: url("../images/kaufman-triangle.svg");
 }
 
