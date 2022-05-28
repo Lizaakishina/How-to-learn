@@ -8,11 +8,11 @@
 
 Использовала следующие технологии:
 
-- ul HTML
-- ul CSS
-- ul БЭМ
-- ul GIT
+- HTML
+- CSS
+- БЭМ
+- GIT
 
 ### Где посмотреть
 
-А вот здесь → Путешествие по России.
+А вот здесь → https://lizaakishina.github.io/how-to-learn/
