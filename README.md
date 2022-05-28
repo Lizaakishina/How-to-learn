@@ -12,7 +12,3 @@
 - CSS
 - БЭМ
 - GIT
-
-### Где посмотреть
-
-А вот здесь → https://lizaakishina.github.io/how-to-learn/
