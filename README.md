@@ -12,3 +12,7 @@
 - CSS
 - БЭМ
 - GIT
+
+## Где посмотреть?
+
+А вот тут: https://lizaakishina.github.io/How-to-learn-YP/
