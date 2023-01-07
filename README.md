@@ -12,4 +12,6 @@
 *5. Анимация и keyframes.*  
 *6. GIT.*  
 
-**[Ссылка на проект]().**
+## Где посмотреть?
+
+А вот тут: https://lizaakishina.github.io/How-to-learn-YP/
